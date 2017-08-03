@@ -30,6 +30,8 @@ unsigned long long int fib(int n)
 
     /*Prints the first one*/
     printf("%d: 1\n", ++i);
+
+    /*Prints the other fibonacci numbers up to the limit.*/
     for (i; i < n ; ++i)
     {
         fib = one + two;
@@ -37,5 +39,6 @@ unsigned long long int fib(int n)
         two = fib;
         printf("%d: %llu\n", i + 1, fib);
     }
+
     return fib;
 }
