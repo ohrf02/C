@@ -47,10 +47,10 @@ RM = "C:\Program Files\JetBrains\CLion 2017.2\bin\cmake\bin\cmake.exe" -E remove
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\ohrf02\CLionProjects\untitled1
+CMAKE_SOURCE_DIR = C:\Users\ohrf02\CLionProjects\C\untitled1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\ohrf02\CLionProjects\untitled1\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\ohrf02\CLionProjects\C\untitled1\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ohrf02\CLionProjects\untitled1\cmake-build-debug\CMakeFiles C:\Users\ohrf02\CLionProjects\untitled1\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ohrf02\CLionProjects\C\untitled1\cmake-build-debug\CMakeFiles C:\Users\ohrf02\CLionProjects\C\untitled1\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ohrf02\CLionProjects\untitled1\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ohrf02\CLionProjects\C\untitled1\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -122,32 +122,32 @@ untitled1/fast:
 	$(MAKE) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/build
 .PHONY : untitled1/fast
 
-main.obj: main.c.obj
+pointers.obj: pointers.c.obj
 
-.PHONY : main.obj
+.PHONY : pointers.obj
 
 # target to build an object file
-main.c.obj:
-	$(MAKE) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/main.c.obj
-.PHONY : main.c.obj
+pointers.c.obj:
+	$(MAKE) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/pointers.c.obj
+.PHONY : pointers.c.obj
 
-main.i: main.c.i
+pointers.i: pointers.c.i
 
-.PHONY : main.i
+.PHONY : pointers.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/main.c.i
-.PHONY : main.c.i
+pointers.c.i:
+	$(MAKE) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/pointers.c.i
+.PHONY : pointers.c.i
 
-main.s: main.c.s
+pointers.s: pointers.c.s
 
-.PHONY : main.s
+.PHONY : pointers.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/main.c.s
-.PHONY : main.c.s
+pointers.c.s:
+	$(MAKE) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/pointers.c.s
+.PHONY : pointers.c.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... untitled1
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... pointers.obj
+	@echo ... pointers.i
+	@echo ... pointers.s
 .PHONY : help
 
 
