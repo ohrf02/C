@@ -14,12 +14,15 @@ int main(){
     struct point point1 = {"point1", 4, 4};
     point1.name = "or";
     printf("%s, %d %d\n", point1.name, point1.x, point1.y);
-    int arr[6] = {1, 2, 3, 4, 5, 6};
-    int *p = arr;
+    int long long arr[] = {1, 2, 3, 4, 5, 6,88,8};
+    int long long  *p = arr;
 
     int i = 0;
-    for (i; i < 6; ++i) {
-        printf("Index: %d; Value: %d.\n", i, *(p + i));
+    int array_size = sizeof(arr)/ sizeof(arr[0]);
+
+    printf("The size of arr: %d and it has %d elements!\n", sizeof(arr), sizeof(arr)/ sizeof(arr[0]));
+    for (i; i < array_size; ++i) {
+        printf("Index: %d; Value: %lld; Address: %p.\n", i, *(p + i), p + i);
     }
     return 0;
 }
