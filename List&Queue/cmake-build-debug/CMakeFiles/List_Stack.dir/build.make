@@ -42,10 +42,10 @@ RM = "C:\Program Files\JetBrains\CLion 2017.2\bin\cmake\bin\cmake.exe" -E remove
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\ohrf02\CLionProjects\C\List&Stack"
+CMAKE_SOURCE_DIR = "C:\Users\ohrf02\CLionProjects\C\List&Queue"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\ohrf02\CLionProjects\C\List&Stack\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\ohrf02\CLionProjects\C\List&Queue\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/List_Stack.dir/depend.make
@@ -56,43 +56,43 @@ include CMakeFiles/List_Stack.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/List_Stack.dir/flags.make
 
-CMakeFiles/List_Stack.dir/main.c.obj: CMakeFiles/List_Stack.dir/flags.make
-CMakeFiles/List_Stack.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\ohrf02\CLionProjects\C\List&Stack\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/List_Stack.dir/main.c.obj"
-	C:\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\List_Stack.dir\main.c.obj   -c "C:\Users\ohrf02\CLionProjects\C\List&Stack\main.c"
+CMakeFiles/List_Stack.dir/Queue.c.obj: CMakeFiles/List_Stack.dir/flags.make
+CMakeFiles/List_Stack.dir/Queue.c.obj: ../Queue.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\ohrf02\CLionProjects\C\List&Queue\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/List_Stack.dir/Queue.c.obj"
+	C:\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\List_Stack.dir\Queue.c.obj   -c "C:\Users\ohrf02\CLionProjects\C\List&Queue\Queue.c"
 
-CMakeFiles/List_Stack.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/List_Stack.dir/main.c.i"
-	C:\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\ohrf02\CLionProjects\C\List&Stack\main.c" > CMakeFiles\List_Stack.dir\main.c.i
+CMakeFiles/List_Stack.dir/Queue.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/List_Stack.dir/Queue.c.i"
+	C:\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\ohrf02\CLionProjects\C\List&Queue\Queue.c" > CMakeFiles\List_Stack.dir\Queue.c.i
 
-CMakeFiles/List_Stack.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/List_Stack.dir/main.c.s"
-	C:\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\ohrf02\CLionProjects\C\List&Stack\main.c" -o CMakeFiles\List_Stack.dir\main.c.s
+CMakeFiles/List_Stack.dir/Queue.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/List_Stack.dir/Queue.c.s"
+	C:\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\ohrf02\CLionProjects\C\List&Queue\Queue.c" -o CMakeFiles\List_Stack.dir\Queue.c.s
 
-CMakeFiles/List_Stack.dir/main.c.obj.requires:
+CMakeFiles/List_Stack.dir/Queue.c.obj.requires:
 
-.PHONY : CMakeFiles/List_Stack.dir/main.c.obj.requires
+.PHONY : CMakeFiles/List_Stack.dir/Queue.c.obj.requires
 
-CMakeFiles/List_Stack.dir/main.c.obj.provides: CMakeFiles/List_Stack.dir/main.c.obj.requires
-	$(MAKE) -f CMakeFiles\List_Stack.dir\build.make CMakeFiles/List_Stack.dir/main.c.obj.provides.build
-.PHONY : CMakeFiles/List_Stack.dir/main.c.obj.provides
+CMakeFiles/List_Stack.dir/Queue.c.obj.provides: CMakeFiles/List_Stack.dir/Queue.c.obj.requires
+	$(MAKE) -f CMakeFiles\List_Stack.dir\build.make CMakeFiles/List_Stack.dir/Queue.c.obj.provides.build
+.PHONY : CMakeFiles/List_Stack.dir/Queue.c.obj.provides
 
-CMakeFiles/List_Stack.dir/main.c.obj.provides.build: CMakeFiles/List_Stack.dir/main.c.obj
+CMakeFiles/List_Stack.dir/Queue.c.obj.provides.build: CMakeFiles/List_Stack.dir/Queue.c.obj
 
 
 # Object files for target List_Stack
 List_Stack_OBJECTS = \
-"CMakeFiles/List_Stack.dir/main.c.obj"
+"CMakeFiles/List_Stack.dir/Queue.c.obj"
 
 # External object files for target List_Stack
 List_Stack_EXTERNAL_OBJECTS =
 
-List_Stack.exe: CMakeFiles/List_Stack.dir/main.c.obj
+List_Stack.exe: CMakeFiles/List_Stack.dir/Queue.c.obj
 List_Stack.exe: CMakeFiles/List_Stack.dir/build.make
 List_Stack.exe: CMakeFiles/List_Stack.dir/linklibs.rsp
 List_Stack.exe: CMakeFiles/List_Stack.dir/objects1.rsp
 List_Stack.exe: CMakeFiles/List_Stack.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\ohrf02\CLionProjects\C\List&Stack\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable List_Stack.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\ohrf02\CLionProjects\C\List&Queue\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable List_Stack.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\List_Stack.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -100,7 +100,7 @@ CMakeFiles/List_Stack.dir/build: List_Stack.exe
 
 .PHONY : CMakeFiles/List_Stack.dir/build
 
-CMakeFiles/List_Stack.dir/requires: CMakeFiles/List_Stack.dir/main.c.obj.requires
+CMakeFiles/List_Stack.dir/requires: CMakeFiles/List_Stack.dir/Queue.c.obj.requires
 
 .PHONY : CMakeFiles/List_Stack.dir/requires
 
@@ -109,6 +109,6 @@ CMakeFiles/List_Stack.dir/clean:
 .PHONY : CMakeFiles/List_Stack.dir/clean
 
 CMakeFiles/List_Stack.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\ohrf02\CLionProjects\C\List&Stack" "C:\Users\ohrf02\CLionProjects\C\List&Stack" "C:\Users\ohrf02\CLionProjects\C\List&Stack\cmake-build-debug" "C:\Users\ohrf02\CLionProjects\C\List&Stack\cmake-build-debug" "C:\Users\ohrf02\CLionProjects\C\List&Stack\cmake-build-debug\CMakeFiles\List_Stack.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\ohrf02\CLionProjects\C\List&Queue" "C:\Users\ohrf02\CLionProjects\C\List&Queue" "C:\Users\ohrf02\CLionProjects\C\List&Queue\cmake-build-debug" "C:\Users\ohrf02\CLionProjects\C\List&Queue\cmake-build-debug" "C:\Users\ohrf02\CLionProjects\C\List&Queue\cmake-build-debug\CMakeFiles\List_Stack.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/List_Stack.dir/depend
 

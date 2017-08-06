@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/List_Stack.dir/main.c.obj"
+  "CMakeFiles/List_Stack.dir/Queue.c.obj"
   "List_Stack.pdb"
   "List_Stack.exe"
   "List_Stack.exe.manifest"

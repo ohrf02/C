@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/ohrf02/CLionProjects/C/List&Stack
+# Install script for directory: C:/Users/ohrf02/CLionProjects/C/List&Queue
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,5 +35,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/ohrf02/CLionProjects/C/List&Stack/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/ohrf02/CLionProjects/C/List&Queue/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

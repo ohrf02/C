@@ -47,10 +47,10 @@ RM = "C:\Program Files\JetBrains\CLion 2017.2\bin\cmake\bin\cmake.exe" -E remove
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\ohrf02\CLionProjects\C\List&Stack"
+CMAKE_SOURCE_DIR = "C:\Users\ohrf02\CLionProjects\C\List&Queue"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\ohrf02\CLionProjects\C\List&Stack\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\ohrf02\CLionProjects\C\List&Queue\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\ohrf02\CLionProjects\C\List&Stack\cmake-build-debug\CMakeFiles" "C:\Users\ohrf02\CLionProjects\C\List&Stack\cmake-build-debug\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\ohrf02\CLionProjects\C\List&Queue\cmake-build-debug\CMakeFiles" "C:\Users\ohrf02\CLionProjects\C\List&Queue\cmake-build-debug\CMakeFiles\progress.marks"
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\ohrf02\CLionProjects\C\List&Stack\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\ohrf02\CLionProjects\C\List&Queue\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -122,32 +122,32 @@ List_Stack/fast:
 	$(MAKE) -f CMakeFiles\List_Stack.dir\build.make CMakeFiles/List_Stack.dir/build
 .PHONY : List_Stack/fast
 
-main.obj: main.c.obj
+Queue.obj: Queue.c.obj
 
-.PHONY : main.obj
+.PHONY : Queue.obj
 
 # target to build an object file
-main.c.obj:
-	$(MAKE) -f CMakeFiles\List_Stack.dir\build.make CMakeFiles/List_Stack.dir/main.c.obj
-.PHONY : main.c.obj
+Queue.c.obj:
+	$(MAKE) -f CMakeFiles\List_Stack.dir\build.make CMakeFiles/List_Stack.dir/Queue.c.obj
+.PHONY : Queue.c.obj
 
-main.i: main.c.i
+Queue.i: Queue.c.i
 
-.PHONY : main.i
+.PHONY : Queue.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles\List_Stack.dir\build.make CMakeFiles/List_Stack.dir/main.c.i
-.PHONY : main.c.i
+Queue.c.i:
+	$(MAKE) -f CMakeFiles\List_Stack.dir\build.make CMakeFiles/List_Stack.dir/Queue.c.i
+.PHONY : Queue.c.i
 
-main.s: main.c.s
+Queue.s: Queue.c.s
 
-.PHONY : main.s
+.PHONY : Queue.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles\List_Stack.dir\build.make CMakeFiles/List_Stack.dir/main.c.s
-.PHONY : main.c.s
+Queue.c.s:
+	$(MAKE) -f CMakeFiles\List_Stack.dir\build.make CMakeFiles/List_Stack.dir/Queue.c.s
+.PHONY : Queue.c.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... List_Stack
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... Queue.obj
+	@echo ... Queue.i
+	@echo ... Queue.s
 .PHONY : help
 
 

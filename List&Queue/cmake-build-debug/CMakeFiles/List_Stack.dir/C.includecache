@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/ohrf02/CLionProjects/C/List&Stack/main.c
-stdio.h
--
+C:/Users/ohrf02/CLionProjects/C/List&Queue/Queue.c
 malloc.h
+-
+stdio.h
 -
 
