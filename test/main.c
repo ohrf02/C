@@ -4,6 +4,7 @@
 The function also returns the last fibonacci number in that limit.*/
 unsigned long long int fib(int n);
 
+
 int main()
 {
     /*Gets the limit of the Fibonacci numbers.*/

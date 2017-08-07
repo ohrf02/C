@@ -35,7 +35,6 @@ Node* node_init(void* value){
     return node;
 }
 
-/*Needs work!!!*/
 void remove_queue(Queue* q) {
     int size = q->nodes_count;
     int i = 0;
@@ -46,6 +45,7 @@ void remove_queue(Queue* q) {
     }
     free(q);
 }
+
 void* peek(Queue* q){
     return q->head->value;
 }
@@ -76,12 +76,11 @@ void* dequeue(Queue* q){
 
         /*If the queue has more than one value =>*/
         if (q->nodes_count > 1) {
-
            q->head = q->head->next;
        }
         /*If the queue has only one value*/
         else{
-           q->last = NULL;
+            q->last = NULL;
             q->head = NULL;
        }
         q->nodes_count--;
@@ -90,7 +89,6 @@ void* dequeue(Queue* q){
     }
     return (void*)0;
 }
-
 
 int main(){
     int value = 44, value1 = 55, value2 = 66;
