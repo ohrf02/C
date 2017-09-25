@@ -1,6 +1,11 @@
+car
+automobile
+
 hello
 hi
 
 bamb 
 aig
 
+test
+quiz
